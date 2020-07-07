@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+  <html>
+   <head>
+    <title>
+	CONTROL
+	</title>
+	 <link rel = "icon" href =  
+"C:\Users\goge6\Desktop\web_lab_7CF\icon.png" 
+        type = "image/x-icon"> 
+    <style>
+	table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+     body{
+       background-color: #D0D6D7;
+     }
+    
+     div{
+       padding-top: 250px;
+       padding-right: 70px;
+       padding-bottom: 50px;
+       padding-left: 580px;
+     }
+    
+     .label{
+       border-radius: 12px;
+       background-color:#FECCE0	; 
+       border: none;
+       color: white;
+       padding: 14px 40px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+       padding-left: 3em;
+       padding-right: 3em;
+       border: 2px solid black;
+       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+       cursor: pointer;
+       width: 150px;
+     }
+	  .textArea{
+       border-radius: 12px;
+       padding: 14px 40px;
+     }
+       .button1:hover{
+       background-color:red;
+	 }
+     .button1:active{
+       background-color:red;
+       box-shadow: 0 5px #666;
+       transform: translateY(4px);
+     }
+     .button1{
+       border-radius: 12px;
+       width: 150px;
+       background-color: #D0D6D7; 
+       border: none;
+       padding: 14px 40px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+       padding-left: 3em;
+       padding-right: 3em;
+       cursor: pointer;
+       color: black;
+       border: 2px solid black;
+       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     } 
+	 .button2{
+       border-radius: 12px;
+       width: 150px;
+       background-color: #D0D6D7; 
+       border: none;
+       padding: 14px 40px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+       padding-left: 3em;
+       padding-right: 3em;
+       cursor: pointer;
+       color: black;
+       border: 2px solid black;
+       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     }
+    .button2:hover{
+       background-color:green;
+	 }
+     .button2:active{
+       background-color:green;
+       box-shadow: 0 5px #666;
+       transform: translateY(4px);
+     }	 
+    </style>
+   </head>
+   <body>
+  
+   <form action="/action_page.php">
+    <div>
+	<form>
+
+      <label class="label" onclick="alert('The robot turned right!')">Right</label>
+	 <input type="text" class="textArea" id="Right" name="Right">
+   
+	  <br/>
+	  <label class="label"onclick="alert('The robot went Forwards!')"> Forwards</label>
+	   <input type="text" class="textArea" id="Forwards" name="Forwards">
+  
+	  <br/>
+      <label class="label"onclick="alert('The robot turned left!')">Left</label>
+	   <input type="text" class="textArea" id="Left" name="Left">
+     
+	  <br/>
+	      <button type="reset" class="button1" value="Delete">Delete</button>
+		  <button type="submit"  class="button2" value="Save">Save</button>
+		  <button  class="button2" value="Start">Start</button>
+          
+    </form>
+    <table style="width:50%">
+   <tr>
+    <td height="50"></td>
+    <td height="50"></td>
+  </tr>
+  <tr>
+    <td height="50"></td>
+    <td height="50"></td>
+   </tr>
+  <tr>
+    <td height="50"></td>
+    <td height="50"></td>
+  </tr>
+  <tr>
+    <td height="50"></td>
+    <td height="50"></td>
+   </tr>
+</table>
+
+     
+   
+     
+    </div>
+   </body>
+  </html>
